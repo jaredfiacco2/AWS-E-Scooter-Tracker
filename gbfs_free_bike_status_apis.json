@@ -1,0 +1,79 @@
+{
+    "apis": [
+        {
+            "company": "bird_battery",
+            "city": "washington-dc",
+            "api_url": "https://gbfs.bird.co/dc"
+        },
+        {
+            "company": "bird",
+            "city": "washington-dc",
+            "api_url": "https://mds.bird.co/gbfs/washington-dc/free_bike_status.json"
+        },
+        {
+            "company": "bird",
+            "city": "kansas-city",
+            "api_url": "https://mds.bird.co/gbfs/kansas-city/free_bike_status.json"
+        },
+        {
+            "company": "lime_rentals",
+            "city": "washington-dc",
+            "api_url": "https://data.lime.bike/api/partners/v1/gbfs/washington_dc/free_bike_status"
+        },
+        {
+            "company": "lime",
+            "city": "arlington",
+            "api_url": "https://data.lime.bike/api/partners/v1/gbfs/arlington/free_bike_status"
+        },
+        {
+            "company": "lime",
+            "city": "baltimore",
+            "api_url": "https://data.lime.bike/api/partners/v1/gbfs/baltimore/free_bike_status"
+        },
+        {
+            "company": "lyft",
+            "city": "washington-dc",
+            "api_url": "https://s3.amazonaws.com/lyft-lastmile-production-iad/lbs/dca/free_bike_status.json"
+        },
+        {
+            "company": "spin",
+            "city": "arkon",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/arkon/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "ann-arbor",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/ann_arbor/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "baltimore",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/baltimore/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "cleveland",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/cleveland/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "kansas-city",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/kansas_city/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "washington-dc",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/washington_dc/free_bike_status"
+        },
+        {
+            "company": "razor",
+            "city": "tempe",
+            "api_url": "https://razorapi.net/api/v1/gbfs/Tempe/free_bike_status.json"
+        },
+        {
+            "company": "razor",
+            "city": "tacoma",
+            "api_url": "https://razorapi.net/api/v1/gbfs/Tacoma/free_bike_status.json"
+        }
+    ]
+}
