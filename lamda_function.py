@@ -57,9 +57,24 @@ def get(city, company, api_url):
     else:
         bike_data['last_updated'] = epoch
     bike_data['city'] = city
+    if company in ["bird"]:
+        bike_data = bike_data[["bike_id", "lat", "lon", "is_disabled", "is_reserved", "last_updated", "city"]]
+    if company in ["bird_battery"]:
+        bike_data = bike_data[["bike_id", "lat", "lon", "battery_level", "vehicle_type", "is_reserved", "is_disabled", "last_updated", "city"]]
+    if company in ["lyft"]:
+        bike_data = bike_data[["is_reserved", "is_disabled", "type", "lat", "lon", "name", "bike_id", "rental_uris.ios", "rental_uris.android", "ttl", "last_updated", "city"]]
+    if company in ["lime"]:
+        bike_data = bike_data[["bike_id", "lat", "lon", "is_reserved", "is_disabled", "vehicle_type", "ttl", "last_updated", "city"]]
+    if company in ["lime_rentals"]:
+        bike_data = bike_data[["bike_id", "lat", "lon", "is_reserved", "is_disabled", "vehicle_type", "rental_uris.android", "rental_uris.ios", "last_updated", "city"]]
+    if company in ["razor"]:
+        bike_data = bike_data[["bike_id", "lat", "lon", "is_reserved", "is_disabled", "ttl", "last_updated", "city"]]
+    if company in ["spin"]:
+        bike_data = bike_data[["bike_id", "lat", "lon", "vehicle_type", "is_reserved", "is_disabled", "ttl", "last_updated", "city"]]
     csv_buffer = StringIO()
     bike_data.to_csv(csv_buffer, header=True, index=False)
     print(bike_data)
+    print(bike_data.info())
     print(csv_path)
     print(my_bucket)
     ############################

@@ -16,6 +16,16 @@
             "api_url": "https://mds.bird.co/gbfs/kansas-city/free_bike_status.json"
         },
         {
+            "company": "bird",
+            "city": "louisville",
+            "api_url": "https://mds.bird.co/gbfs/louisville/free_bikes"
+        },
+        {
+            "company": "bird",
+            "city": "portland-or",
+            "api_url": "https://mds.bird.co/gbfs/portland/free_bikes"
+        },
+        {
             "company": "lime_rentals",
             "city": "washington-dc",
             "api_url": "https://data.lime.bike/api/partners/v1/gbfs/washington_dc/free_bike_status"
@@ -24,6 +34,16 @@
             "company": "lime",
             "city": "arlington",
             "api_url": "https://data.lime.bike/api/partners/v1/gbfs/arlington/free_bike_status"
+        },
+        {
+            "company": "lime",
+            "city": "memphis",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/memphis/free_bike_status"
+        },
+        {
+            "company": "lime",
+            "city": "new-york",
+            "api_url": "https://data.lime.bike/api/partners/v1/gbfs/new_york/free_bike_status.json"
         },
         {
             "company": "lime",
@@ -37,8 +57,8 @@
         },
         {
             "company": "spin",
-            "city": "arkon",
-            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/arkon/free_bike_status"
+            "city": "akron",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/akron/free_bike_status"
         },
         {
             "company": "spin",
@@ -47,13 +67,193 @@
         },
         {
             "company": "spin",
+            "city": "detroit",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/detroit/free_bike_status.json"
+        },
+        {
+            "company": "spin",
+            "city": "los-angeles",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/los_angeles/free_bike_status.json"
+        },
+        {
+            "company": "spin",
             "city": "baltimore",
             "api_url": "https://gbfs.spin.pm/api/gbfs/v1/baltimore/free_bike_status"
         },
         {
             "company": "spin",
+            "city": "basildon",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/basildon/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "boise",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/boise/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "chelmsford",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/chelmsford/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "colchester",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/colchester/free_bike_status"
+        },
+        {
+            "company": "spin",
             "city": "cleveland",
             "api_url": "https://gbfs.spin.pm/api/gbfs/v1/cleveland/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "coral-gables",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/coral_gables/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "dayton",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/dayton/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "memphis",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/memphis/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "seattle",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/seattle/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "atlanta",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/atlanta/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "fayetteville",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/fayetteville/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "omaha",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/omaha/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "milton-keynes",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/milton_keynes/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "st-george",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/st_george/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "santa-monica",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/santa_monica/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "stillwater",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/stillwater/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "winston-salem",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/winston_salem/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "tallahassee",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/tallahassee/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "tampa",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/tampa/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "orlando",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/orlando/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "gainesville",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/gainesville/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "oakland-university",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/oakland_university/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "purdue_university",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/purdue_university/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "university-of-central-florida",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/university_of_central_florida/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "michigan-state-university",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/michigan_state_university/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "providence",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/providence/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "pittsburgh",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/pittsburgh/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "raleigh",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/raleigh/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "san-francisco",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/san_francisco/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "san-diego",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/san_diego/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "san-marcos",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/san_marcos/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "salt-lake-city",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/salt_lake_city/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "nashville",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/nashville/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "grand-rapids",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/grand_rapids/free_bike_status"
+        },
+        {
+            "company": "spin",
+            "city": "jacksonville",
+            "api_url": "https://gbfs.spin.pm/api/gbfs/v1/jacksonville/free_bike_status"
         },
         {
             "company": "spin",
