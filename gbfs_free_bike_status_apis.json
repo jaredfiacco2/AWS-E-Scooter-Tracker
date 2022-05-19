@@ -17,6 +17,51 @@
         },
         {
             "company": "bird",
+            "city": "zurich",
+            "api_url": "https://mds.bird.co/gbfs/zurich/free_bike_status.json"
+        },
+        {
+            "company": "bird",
+            "city": "zaragoza",
+            "api_url": "https://mds.bird.co/gbfs/zaragoza/free_bike_status.json"
+        },
+        {
+            "company": "bird",
+            "city": "winterthur",
+            "api_url": "https://mds.bird.co/gbfs/winterthur/free_bike_status.json"
+        },
+        {
+            "company": "bird",
+            "city": "fairfax",
+            "api_url": "https://mds.bird.co/gbfs/fairfax/free_bike_status.json"
+        },
+        {
+            "company": "bird",
+            "city": "detroit",
+            "api_url": "https://mds.bird.co/gbfs/detroit/free_bike_status.json"
+        },
+        {
+            "company": "bird",
+            "city": "columbus",
+            "api_url": "https://mds.bird.co/gbfs/columbus/free_bike_status.json"
+        },
+        {
+            "company": "bird",
+            "city": "indianapolis",
+            "api_url": "https://mds.bird.co/gbfs/indianapolis/free_bike_status.json"
+        },
+        {
+            "company": "bird",
+            "city": "st-louis",
+            "api_url": "https://mds.bird.co/gbfs/st-louis/free_bike_status.json"
+        },
+        {
+            "company": "bird",
+            "city": "tel-aviv",
+            "api_url": "https://mds.bird.co/gbfs/tel-aviv/free_bike_status.json"
+        },
+        {
+            "company": "bird",
             "city": "louisville",
             "api_url": "https://mds.bird.co/gbfs/louisville/free_bikes"
         },
