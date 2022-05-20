@@ -47,6 +47,8 @@
 
 <img src="images\ProcessMap.png" alt="Process Map"/>
 
+<img src="images\data_studio_plus_redshift.gif" alt="Process Map"/>
+
 ### Built With
 
 - Tech
