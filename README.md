@@ -50,60 +50,51 @@
 ### Built With
 
 - Tech
-* [Python](https://python.org)
-* [Pandas](https://pandas.pydata.org/)
-* [AWS Cloud Watch](https://firebase.google.com/docs/firestore)
-* [AWS SNS](https://firebase.google.com/docs/firestore)
-* [AWS Lambda](https://firebase.google.com/docs/firestore)
-* [AWS S3](https://firebase.google.com/docs/firestore)
-* [AWS Redshift](https://firebase.google.com/docs/firestore)
-* [GCP Data Studio](https://datastudio.google.com/)
-* [JSON](https://en.wikipedia.org/wiki/JSON)
+    * [Python](https://python.org)
+    * [Pandas](https://pandas.pydata.org/)
+    * [AWS Cloud Watch](https://aws.amazon.com/cloudwatch/)
+    * [AWS SNS](https://aws.amazon.com/sns/)
+    * [AWS Lambda](https://aws.amazon.com/lambda/)
+    * [AWS S3](https://aws.amazon.com/s3/)
+    * [AWS Redshift](https://aws.amazon.com/redshift/)
+    * [GCP Data Studio](https://datastudio.google.com/)
+    * [JSON](https://en.wikipedia.org/wiki/JSON)
 
-- E-Scooter/Bike APIs (7 APIs, 48 Locations)
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
+- E-Scooter/Bike APIs (7 APIs, 56 Locations)
+    * [Bird](https://mds.bird.co/gbfs/washington-dc/free_bike_status.json)
+     [Bird with Battery Status]()
+    * [Lime](https://data.lime.bike/api/partners/v1/gbfs/baltimore/free_bike_status)
+    * [Lime (Rentals)](https://data.lime.bike/api/partners/v1/gbfs/washington_dc/free_bike_status)
+    * [Lyft](https://s3.amazonaws.com/lyft-lastmile-production-iad/lbs/dca/free_bike_status.json)
+    * [Razor](https://razorapi.net/api/v1/gbfs/Tempe/free_bike_status.json)
+    * [Spin](https://gbfs.spin.pm/api/gbfs/v1/akron/free_bike_status)
 
 ### Prerequisites
 
-1. Installing all Required Packages
-  ```sh
-  pip install -r requirements.txt
-  ```
+1. Create a cluster in Redshift open to public IPs & add the schemas, tables, views, and stored procedures included in the sql folder. The data model will be a data vault model and store each change in the sattelites.
+<img src="images\raw_vault.png">
 
-2. Open a Google Cloud Platform Account and a firebase account. 
+2. Create a lambda function with the lambda_function.py file. Swap out the "ACCESS_KEY", "SECRET_KEY", "creds", and "my_bucket" names. Also add Data wrangler and psycopg layers. Trigger it with the sns topic you'll make in the next step.
+<img src="images\lambda.png">
+<img src="images\lambda_layers.png">
 
-3. Download a [admin sdk json file](https://firebase.google.com/docs/admin/setup#python) to access firebase. Download the file and replace the firebase-adminsdk.json file in your repo. Adjust "cred" variable in loadToFirebase_gitVersion.py file to match the name of your credentials file.
-<img src="images\firebase_key.gif" alt="getFirebaseKey" />
+3. Create an sns topic.
 
-4. Check access to [RSS Feed](https://darknetdiaries.com/feedfree.xml).
-<img src="images\xml.gif" alt="xml" />
+4. Create a cloud watch schedule to run every X minutes (you choose X).
+<img src="images\cloudwatch_rule.png"/>
 
-5. Run loadToFirebase.py in python. This step took my computer well over 24 hours for the 100+ hours in the DarkNet Diaries Podcast.
-  ```sh
-  python loadToFirebase_gitVersion.py
-  ```
-6. Check Firebase to make sure the data went through.
-<img src="images\firebase.gif" alt="firebase" />
+5. Create Data Studio dashboard pulling from Redshift query. Schedule to send to self daily.
+<img src="images\data_dtudio.gif"/>
 
-7. Use Jupyter Notebook and pandas to play wit the pickle data!
-<img src="images\pandas.gif" alt="pandas" />
 
 <!-- CONTACT -->
 ## Contact
 
 [Jared Fiacco](https://www.linkedin.com/in/jaredfiacco/) - jaredfiacco2@gmail.com
 
-Another GCP Project of Mine: [Publish Computer Statistics to Pub/Sub, Use Cloud Functions to Store in BigQuery](https://github.com/jaredfiacco2/ComputerMonitoring_IOT)
+Another GCP Project of Mine: [Pull and Store and Server Clash of Clans API Data](https://github.com/jaredfiacco2/ClashOfClans_API)
 
-
-
-
+A GCP Project of Mine: [Publish Computer Statistics to Pub/Sub, Use Cloud Functions to Store in BigQuery](https://github.com/jaredfiacco2/ComputerMonitoring_IOT)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
