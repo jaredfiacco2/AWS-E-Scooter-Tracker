@@ -86,7 +86,7 @@
 <img src="images\cloudwatch_rule.png"/>
 
 5. Create Data Studio dashboard pulling from Redshift query. Schedule to send to self daily.
-<img src="images\data_dtudio.gif"/>
+<img src="images\data_studio.gif"/>
 
 
 <!-- CONTACT -->
